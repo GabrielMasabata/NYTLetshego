@@ -1,4 +1,4 @@
-# NYTLetshego
+# NYT
 IOS Test - NY Times Most Popular Articles Assessment 
 
 ## Description
