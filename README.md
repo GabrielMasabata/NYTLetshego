@@ -3,16 +3,23 @@ IOS Test - NY Times Most Popular Articles Assessment
 
 ## Description
 Simple app to hit the NY Times Most Popular Articles API and show a list of articles, that shows details when items on the list are tapped (a typical master/detail app).
+The fasted way i could think to develop the app was to have as minimal tasks to do as possible and that included: 
+* designing the table view controller using code,
+* minimalistic design of the launch screen using the storyboard,
+* separating the API call into models so it runs only when called,
+* use of user defaults to store downloaded data,
+* network check using one function,
+* using map function instead of segues
 
 https://developer.nytimes.com/
 
 Topic demoestrate in this application
 ---
 ##### * Structure - Network Connection and API Connection
-##### * MVP
+##### * MVP Model of how data is retrieved via the API, displayed in the app's two different screens.
 ##### * Apple UX Simple Code Design for Articles Page and UI Design for More Info on each Arctivle Page
 ####  * TableView Controller Code Design
-####  * Data Storage
+####  * Data Storage -  Realm
 ---
 ## Environment
 ---
